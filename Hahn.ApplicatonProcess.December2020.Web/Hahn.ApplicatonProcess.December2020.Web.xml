@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Hahn.ApplicatonProcess.December2020.Web</name>
+    </assembly>
+    <members>
+        <member name="M:Hahn.ApplicatonProcess.December2020.Web.Controllers.AplicantsController.Get(System.Int32)">
+            <param name="id" example="1">id</param>
+        </member>
+        <member name="M:Hahn.ApplicatonProcess.December2020.Web.Controllers.AplicantsController.Post(Hahn.ApplicatonProcess.December2020.Data.Applicant)">
+            <summary>
+            Creates Applicant.
+            </summary>
+            <param name="item"></param>
+            <returns>A newly created Applicant</returns>
+            <response code="201">Returns the newly created item</response>
+            <response code="400">If the item is null</response>            
+        </member>
+        <member name="M:Hahn.ApplicatonProcess.December2020.Web.Controllers.AplicantsController.Put(System.Int32,Hahn.ApplicatonProcess.December2020.Data.Applicant)">
+            <summary>
+            Updates Applicant.
+            </summary>
+            <param name="item"></param>
+             <param name="id" example="1">id</param>
+            <returns>Updated Applicant</returns>
+            <response code="201"></response>
+            <response code="400">If the item is null</response> 
+        </member>
+        <member name="M:Hahn.ApplicatonProcess.December2020.Web.Controllers.AplicantsController.Delete(System.Int32)">
+            <summary>
+            Deletes a specific Applicant.
+            </summary>
+             <param name="id" example="1">id</param>
+            <response code="201"></response>
+        </member>
+    </members>
+</doc>
